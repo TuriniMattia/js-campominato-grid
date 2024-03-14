@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background-color: rgb(127, 255, 212);
 
 }
 
@@ -53,9 +53,17 @@ body{
 }
 .grid-item{
     aspect-ratio: 1 / 1;
-    border: solid white 3px;
+    border: solid white 2px;
     /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
     
     
+}
+
+.bg-blue{
+    background-color:lightblue ;
 }
