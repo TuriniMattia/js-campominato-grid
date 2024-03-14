@@ -1,8 +1,6 @@
 const pressBtn = document.getElementById(playGame)
 
 
-
-
 const gridEl = document.querySelector(".grid")
 console.log(gridEl)
 
