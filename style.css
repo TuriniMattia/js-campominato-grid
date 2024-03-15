@@ -1,69 +1,86 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(127, 255, 212);
 
 }
 
 
-.game-logo{
+.game-logo {
     background-color: white;
     padding: 50px;
     display: flex;
     justify-content: space-between;
 }
-.logoText{
+
+.logoText {
     display: flex;
     align-items: center;
-    
+
 }
 
-.logoImm{
+.logoImm {
     width: 80px;
 
 }
-.button-container{
-  width: 80px; 
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-}
-#playGame{
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-}
-.container{
-    max-width: 800px;
-    margin:0 auto ;
+
+.button-container {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
-.grid-container{
+#playGame {
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid;
+
+}
+
+.difficult {
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid-container {
     padding: 50px;
-    
-    
+
+
 }
-.grid{
+
+.grid {
     display: grid;
-    grid-template-columns: repeat(10 , 1fr);
-    
+    grid-template-columns: repeat(10, 1fr);
+
 }
-.gridEl{
+
+.gridEl {
     aspect-ratio: 1 / 1;
     border: solid white 2px;
     /* padding: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
-   
 
-    
-    
+
+
+
 }
 
-.bg-blue{
-    background-color:lightblue ;
+.bg-blue {
+    background-color: lightblue;
 }
